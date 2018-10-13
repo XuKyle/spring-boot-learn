@@ -1,0 +1,12 @@
+server:
+  port: 8080
+  context-path: /springboot
+
+girl:
+  cupSize: B
+  age: 18
+  content: cupSize:${cupSize},age:${age}
+
+spring:
+  profiles:
+    active: dev
